@@ -11,9 +11,12 @@ h1, h2, p, a{
     margin: 25px;
 }
 
+html{
+    cursor: url(./images/broccoli.png), pointer;
+}
+
 body{
     min-height: 100vh;
-    cursor: url('./broccoli.png'), pointer;
     background-color: black;
 }
 
@@ -102,7 +105,7 @@ body{
 }
 
 .face:hover {
-    background: linear-gradient(180deg, #f44336, #f44336, #ffcd00);
+    background: linear-gradient(180deg, #5b9129, #76b84d, #ffcd00);
 }
 
 .face.face:hover:before {
